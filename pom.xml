@@ -16,11 +16,43 @@
       </plugin>
     </plugins>
   </build>
+
+
+
   <dependencies>
+  <!--  Webcam Utility -->
   	<dependency>
   		<groupId>com.github.sarxos</groupId>
   		<artifactId>webcam-capture</artifactId>
   		<version>0.3.10</version>
   	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<!--  ipcam  -->
+<dependency>
+	<groupId>com.github.sarxos</groupId>
+	<artifactId>webcam-capture-driver-jmf</artifactId>
+	<version>0.3.9</version>
+</dependency>
+<!--  Movie stuff -->
+
+  <dependency>
+   <groupId>xuggle</groupId>
+   <artifactId>xuggle-xuggler</artifactId>
+   <version>5.4</version>
+  </dependency>
+  
   </dependencies>
+  
+   <repositories>
+  <repository>
+   <id>xuggle repo</id>
+   <url>https://files.liferay.com/mirrors/xuggle.googlecode.com/svn/trunk/repo/share/java/</url>
+  </repository>
+</repositories>
+  
 </project>
