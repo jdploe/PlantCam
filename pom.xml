@@ -20,11 +20,12 @@
 
 
   <dependencies>
+
   <!--  Webcam Utility -->
   	<dependency>
   		<groupId>com.github.sarxos</groupId>
   		<artifactId>webcam-capture</artifactId>
-  		<version>0.3.10</version>
+  		<version>0.3.11</version>
   	</dependency>
   	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 <dependency>

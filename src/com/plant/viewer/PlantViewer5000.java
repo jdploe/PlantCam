@@ -13,6 +13,7 @@ import javax.swing.JFrame;
 import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamPanel;
 import com.github.sarxos.webcam.WebcamResolution;
+import com.plant.streaming.Server;
 import com.xuggle.mediatool.IMediaWriter;
 import com.xuggle.mediatool.ToolFactory;
 import com.xuggle.xuggler.ICodec;
@@ -27,7 +28,9 @@ public class PlantViewer5000 {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		System.out.println("This is PlantViewer 5000!");
-
+		
+		Server server = new Server(null);
+		server.start();
 		
 
 		System.out.println("DONE!");
